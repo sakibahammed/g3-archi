@@ -108,11 +108,29 @@ nav>ul>li{
     padding: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
+    
 }
 .feature-image img{
     width: 100%;
+    opacity: 0.87;
+    
     
 } 
+
+.middle-button{
+   
+    background-color: #FF900E;
+    font-weight: 900;
+    width: 200px;
+    padding: 10px;
+    
+    margin: -20px auto;
+    text-align: center;
+    border-radius: 10px;
+    color: #FFF4E7;
+    z-index: 1;
+    
+}
 
 /* achivement section */
 
@@ -162,4 +180,67 @@ nav>ul>li{
     flex-wrap: wrap	;
      */
     
+}
+
+.news{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 25px;
+    margin-top: 60px;
+}
+footer{
+    background-color: #FFF4E7;
+    margin-top:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+@media only screen and (max-width:576px) {
+    .photo-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .photo-galary{
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .feature-section{
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .achivement-container{
+        margin-top: 75px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        gap: 10px;
+    }
+    .sponsors-logo{
+    
+        padding: 25px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:30px;
+        justify-content: space-evenly;
+        align-items: center;
+        filter: grayscale(1);
+        /* flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap	;
+         */
+        
+    }
 }
