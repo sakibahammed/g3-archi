@@ -215,6 +215,7 @@ footer{
         margin-top: 70px;
     }
     .photo-galary{
+        
         width: 75%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -224,7 +225,7 @@ footer{
     }
     .feature-section{
         margin-top: 80px;
-        margin: 0 auto;
+        
         display: grid;
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
