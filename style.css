@@ -112,4 +112,54 @@ nav>ul>li{
 .feature-image img{
     width: 100%;
     
+} 
+
+/* achivement section */
+
+
+
+.achivement-container{
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    gap: 10px;
+}
+
+.achivement{
+    margin: 0 auto;
+    border: 1px solid #FF900E;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sponsor{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+
+}
+.sponsor h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.sponsors-logo{
+    
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:30px;
+    justify-content: space-evenly;
+    align-items: center;
+    filter: grayscale(1);
+    /* flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap	;
+     */
+    
 }
